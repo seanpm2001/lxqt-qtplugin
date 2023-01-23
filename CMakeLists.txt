@@ -13,7 +13,7 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 # Minimum Versions
-set(LXQTBT_MINIMUM_VERSION "0.12.0")
+set(LXQTBT_MINIMUM_VERSION "2.0.0")
 set(QT_MINIMUM_VERSION "6.3.0")
 set(QTXDG_MINIMUM_VERSION "3.10.0")
 set(FMQT_MINIMUM_VERSION "2.0.0")
@@ -22,7 +22,7 @@ find_package(Qt6DBus ${QT_MINIMUM_VERSION} REQUIRED)
 find_package(Qt6LinguistTools ${QT_MINIMUM_VERSION} REQUIRED)
 find_package(Qt6Widgets ${QT_MINIMUM_VERSION} REQUIRED)
 find_package(Qt6XdgIconLoader ${QTXDG_MINIMUM_VERSION} REQUIRED)
-find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
+find_package(lxqt2-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 find_package(dbusmenu-qt6 REQUIRED)
 find_package(fm-qt6 ${FMQT_MINIMUM_VERSION} REQUIRED)
 
